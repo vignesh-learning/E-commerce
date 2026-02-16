@@ -8,28 +8,28 @@ function Home() {
       id: 1,
       name: "Wireless Headphones",
       price: 89.99,
-      image: "neckband.jpg",
+      image: "/neckband.jpg",
       description: "High-quality wireless headphones with noise cancellation",
     },
     {
       id: 2,
       name: "Smart Watch",
       price: 199.99,
-      image: "smartwatch.jpg",
+      image: "/smartwatch.jpg",
       description: "Feature-rich smartwatch with health monitoring",
     },
     {
       id: 3,
       name: "Laptop Backpack",
       price: 49.99,
-      image: "backpack.jpg",
+      image: "/backpack.jpg",
       description: "Durable laptop backpack with USB charging port",
     },
     {
       id: 4,
       name: "Bluetooth Speaker",
       price: 59.99,
-      image: "speaker.jpg",
+      image: "/speaker.jpg",
       description: "Portable Bluetooth speaker with 12-hour battery",
     },
 
@@ -74,17 +74,20 @@ function Home() {
             <img src="/logo.png" alt="MyShop Logo" />
            <span className="logoname">VIRTUAL MALL</span>
           </a>
-          <ul class="nav-links" id="navLinks">
-                <li><a href="/Login">Home</a></li>
-                <li><a href="/Login">Products</a></li>
-                <li><a href="/Login" class="active">About</a></li>
-                <li><a href="/Login">Contact</a></li>
-                <li><a href="/Login">Oders</a></li>
-                <li><a href="/Login" class="cart-btn">
-                    <i class="fas fa-shopping-cart"></i>
-                    <span class="cart-count">0</span>
-                    <span class="cart-text"> Cart</span>
-                </a></li>
+            <ul className="nav-links" id="navLinks">
+              <li><a href="/Login">Home</a></li>
+              <li><a href="/Login">Products</a></li>
+              <li><a href="/Login" className="active">About</a></li>
+              <li><a href="/Login">Contact</a></li>
+              <li><a href="/Login">Orders</a></li>
+
+              <li>
+                <a href="/Login" className="cart-btn">
+                  <i className="fas fa-shopping-cart"></i>
+                  <span className="cart-count">{cartCount}</span>
+                  <span className="cart-text"> Cart</span>
+                </a>
+              </li>
             </ul>
         </div>
       </nav>
