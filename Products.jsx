@@ -307,7 +307,7 @@ function Products() {
       <nav className="navbar">
         <div className="container">
           <a href="/Home" className="logo">
-            <img src="logo.png" alt="MyShop Logo" />
+            <img src="/logo.png" alt="MyShop Logo" />
             <span className="logoname">VIRTUAL MALL</span>
           </a>
           <ul className="nav-links">

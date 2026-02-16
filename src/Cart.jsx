@@ -77,7 +77,7 @@ const navigate = useNavigate();
             <nav className="navbar">
         <div className="container">
             <a href="/Home" className="logo">
-                <img src="logo.png" alt="MyShop Logo" className="logo-img" />
+                <img src="/logo.png" alt="MyShop Logo" className="logo-img" />
                 <span className="logoname">VIRTUAL MALL</span>
             </a>
             <button className="menu-toggle" id="menuToggle">

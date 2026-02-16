@@ -7,7 +7,7 @@ function About(){
             <nav class="navbar">
         <div class="container">
             <a href="/Home" class="logo">
-                <img src="logo.png" alt="MyShop Logo"/>
+                <img src="/logo.png" alt="MyShop Logo"/>
                 <span className="logoname">VIRTUAL MALL</span>
             </a>
             <button class="menu-toggle" id="menuToggle">
@@ -44,7 +44,7 @@ function About(){
                     <p>We believe that shopping should be a delightful experience, which is why we focus on curating the best products, providing excellent customer service, and ensuring a seamless shopping journey from browsing to delivery.</p>
                 </div>
                 <div class="about-image">
-                    <img src="story.jpg" alt="Our Story" />
+                    <img src="/story.jpg" alt="Our Story" />
                 </div>
             </div>
 

@@ -32,7 +32,7 @@ function Contact() {
       <nav className="navbar">
         <div className="container nav-container">
           <a href="/Home" className="logo">
-            <img src="logo.png" alt="VIRTUAL MALL Logo" className="logo-img" />
+            <img src="/logo.png" alt="VIRTUAL MALL Logo" className="logo-img" />
             <span className="logoname">VIRTUAL MALL</span>
           </a>
           <ul class="nav-links" id="navLinks">
