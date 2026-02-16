@@ -70,17 +70,17 @@ function Home() {
     <>
       <nav className="navbar">
         <div className="container">
-          <a href="/Home" className="logo">
+          <a href="/Signup" className="logo">
             <img src="/logo.png" alt="MyShop Logo" />
            <span className="logoname">VIRTUAL MALL</span>
           </a>
           <ul class="nav-links" id="navLinks">
-                <li><a href="/Home">Home</a></li>
-                <li><a href="/products">Products</a></li>
-                <li><a href="/About" class="active">About</a></li>
-                <li><a href="/Contact">Contact</a></li>
-                <li><a href="/Conformation">Oders</a></li>
-                <li><a href="/Cart" class="cart-btn">
+                <li><a href="/Signup">Home</a></li>
+                <li><a href="/Login">Products</a></li>
+                <li><a href="/Login" class="active">About</a></li>
+                <li><a href="/Login">Contact</a></li>
+                <li><a href="/Login">Oders</a></li>
+                <li><a href="/Login" class="cart-btn">
                     <i class="fas fa-shopping-cart"></i>
                     <span class="cart-count">0</span>
                     <span class="cart-text"> Cart</span>
@@ -125,7 +125,7 @@ function Home() {
           </div>
           <br />
           <div className="more"> 
-            <a href="/Register" className="btn">More</a>
+            <a href="/Login" className="btn">More</a>
         </div>
         </div>
       </section>
