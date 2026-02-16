@@ -75,7 +75,7 @@ function Home() {
            <span className="logoname">VIRTUAL MALL</span>
           </a>
           <ul class="nav-links" id="navLinks">
-                <li><a href="/Signup">Home</a></li>
+                <li><a href="/Login">Home</a></li>
                 <li><a href="/Login">Products</a></li>
                 <li><a href="/Login" class="active">About</a></li>
                 <li><a href="/Login">Contact</a></li>
