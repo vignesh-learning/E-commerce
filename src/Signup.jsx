@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./sign.css";
 
-function Home() {
+function Signup() {
 
   const products = [
     {
@@ -142,4 +142,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Signup;
